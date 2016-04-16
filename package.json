@@ -10,6 +10,10 @@
     "jade": "^1.11.0",
     "redis": "^2.6.0-1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alpana30/Login-App-with-Express.js-Redis.git"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +23,9 @@
     "redis"
   ],
   "author": "Alpana Chaphalkar (alpana.a.chaphalkar@outlook.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alpana30/Login-App-with-Express.js-Redis/issues"
+  },
+  "homepage": "https://github.com/Alpana30/Login-App-with-Express.js-Redis#readme",
 }
