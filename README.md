@@ -5,4 +5,4 @@
 2. Frontend: Jade, CSS3
 3. Database: NoSQL Redis
 
-*Please see **Package.json** file for dependencies.*
+Please see **Package.json** file for dependencies.
