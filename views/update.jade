@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title #{title}
+    link(rel="stylesheet", href="../public/css/style.css")
+  body
+    #content
+      h2 #{name}
+      form(method="POST", action="/Real_Estate/account-result", enctype="application/x-www-form-urlencoded")
+        table
+            tr
+                td
+                    label New Password:
+                td
+                    input(type="password", name="password", autocomplete="off")
+        #message
+          b #{message}
+        #updatePassword
+          input(type='hidden', name='uname', value=name)
+          input(type="submit", value="Update Password")

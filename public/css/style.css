@@ -1,0 +1,41 @@
+body{
+  font: Arial;
+  font-size: 20px;
+}
+#content{
+  width: 500px;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 4px #ccc;
+  padding: 10px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+#message{
+  color: red;
+  padding: 5px;
+}
+p{
+  padding: 5px;
+}
+p.result{
+  color: green;
+}
+input{
+  padding: 5px;
+  margin: 10px;
+  font-size: 16px;
+}
+label{
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+}

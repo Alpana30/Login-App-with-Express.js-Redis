@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title #{title}
+    link(rel="stylesheet", href="../public/css/style.css")
+  body
+    #content
+      h2 #{title}
+      form(method="POST", action="/Real_Estate/login-result", enctype="application/x-www-form-urlencoded")
+        table
+            tr
+                td
+                    label Username:
+                td
+                    input(type="text", name="uname", autocomplete="off")
+            tr
+                td
+                    label Password:
+                td
+                    input(type="password", name="password", autocomplete="off")
+        #message
+          b #{message}
+        #user_submition
+          input(type="submit")
