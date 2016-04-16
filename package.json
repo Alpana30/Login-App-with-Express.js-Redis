@@ -1,5 +1,5 @@
 {
-  "name": "rough",
+  "name": "Login-App-with-Express.js-Redis",
   "version": "1.0.0",
   "description": "NoSQL Redis DB practice App",
   "main": "app.js",
