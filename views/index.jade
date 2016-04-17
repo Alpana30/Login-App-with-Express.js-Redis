@@ -2,6 +2,7 @@ doctype html
 html
   head
     meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width initial-scale=1")
     title #{title}
     link(rel="stylesheet", href="../public/css/style.css")
   body
@@ -13,7 +14,7 @@ html
                 td
                     label Username:
                 td
-                    input(type="text", name="uname", autocomplete="off")
+                    input(type="text", name="uname", autocomplete="off", placeholder="e.g john_doe")
             tr
                 td
                     label Password:
